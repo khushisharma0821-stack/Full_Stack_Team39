@@ -9,7 +9,7 @@ const Results = () => {
   if (!scores || !selectedRole) {
     navigate('/');
     return null;
-  }
+  } //Check
 
   const getImprovementTips = () => {
     const tips = [];
